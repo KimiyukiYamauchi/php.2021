@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 320px;
+  margin: 32px auto;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.delete,
+.purge {
+  color: #ccc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-form {
+  margin-left: auto;
+  padding-left: 8px;
+}
