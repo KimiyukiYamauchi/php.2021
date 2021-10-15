@@ -10,6 +10,7 @@ class Database
   {
     try {
       if (!isset(self::$instance)) {
+        Token::create();
         self::$instance = new \PDO(
           DSN,
           DB_USER,
